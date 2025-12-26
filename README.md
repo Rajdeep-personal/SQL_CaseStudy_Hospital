@@ -37,7 +37,7 @@ The entire operation includes creation of tables, insertion of data into those a
      
      3. For Data Exploration
 
-# There are total 10 business questions which have been answered using the concepts of JOIN, CTE, Window Function, Date Function, Substring function etc and a few of which have been answered by different alternatives for future reference.
+There are total 10 business questions which have been answered using the concepts of JOIN, CTE, Window Function, Date Function, Substring function etc and a few of which have been answered by different alternatives for future reference.
 
 The Business Questions are as follows:
 
