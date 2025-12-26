@@ -5,18 +5,28 @@ The ER Diagram has been kept inside the repository for reference.
 The entire operation includes creation of tables, insertion of data into those along with data cleaning followed by the data exploration for a few business questions.
 
 # The cleaning operation includes:
+
   **1. Patient Table:**
+  
   -- ------ Remove patient rows where FirstName is missing
+  
   -- ------ Standardize First Name and Last Name to Proper Case and create a fullname column
+  
   -- ------ Gender Values should be either Male or Female
+  
   -- ------ Split CityStateCountry into City, State and Country Columns
 
   **2. Department Table:**
+  
   -- ------ Remove Departments where Department category is missing
+  
   -- ------ Drop HOD and DepartmentName Columns
+  
   -- ------ Use specialization as DepartmentName column
+ 
 
   **3. PatienVisits Table:**
+  
   -- ------ Merge all yearly visit tables (2020-2025) into one consolidated Patientvisits table
 
   Total 3 .sql notebooks are present in this repository - 
