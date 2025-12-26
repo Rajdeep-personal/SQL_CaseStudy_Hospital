@@ -30,9 +30,11 @@ The entire operation includes creation of tables, insertion of data into those a
     a. Merge all yearly visit tables (2020-2025) into one consolidated Patientvisits table
 
   Total 3 .sql notebooks are present in this repository - 
-    -- 1. For Table Creation and Data Insertion
-    -- 2. For Data Cleaning
-    -- 3. For Data Exploration
+     1. For Table Creation and Data Insertion
+     
+     2. For Data Cleaning
+     
+     3. For Data Exploration
 
 # There are total 10 business questions which have been answered using the concepts of JOIN, CTE, Window Function, Date Function, Substring function etc and a few of which have been answered by different alternatives for future reference.
 
