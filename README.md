@@ -8,26 +8,26 @@ The entire operation includes creation of tables, insertion of data into those a
 
   **1. Patient Table:**
   
-  -- ------ Remove patient rows where FirstName is missing
+    a. Remove patient rows where FirstName is missing
   
-  -- ------ Standardize First Name and Last Name to Proper Case and create a fullname column
+    b. Standardize First Name and Last Name to Proper Case and create a fullname column
   
-  -- ------ Gender Values should be either Male or Female
+    c. Gender Values should be either Male or Female
   
-  -- ------ Split CityStateCountry into City, State and Country Columns
+    d. Split CityStateCountry into City, State and Country Columns
 
   **2. Department Table:**
   
-  -- ------ Remove Departments where Department category is missing
+    a. Remove Departments where Department category is missing
   
-  -- ------ Drop HOD and DepartmentName Columns
+    b. Drop HOD and DepartmentName Columns
   
-  -- ------ Use specialization as DepartmentName column
+    c. Use specialization as DepartmentName column
  
 
   **3. PatienVisits Table:**
   
-  -- ------ Merge all yearly visit tables (2020-2025) into one consolidated Patientvisits table
+    a. Merge all yearly visit tables (2020-2025) into one consolidated Patientvisits table
 
   Total 3 .sql notebooks are present in this repository - 
     -- 1. For Table Creation and Data Insertion
